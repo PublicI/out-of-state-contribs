@@ -4,59 +4,59 @@ This repo contains code and data for "[Local Voters, Distant Donors]()," a Cente
 
 A detailed description of the methodology behind the story [can be read here]().
 
-### Here's what's in this repo.
+## Here's what's in this repo.
 
-#### [data-prep.ipynb](data-prep.ipynb)
+### [data-prep.ipynb](data-prep.ipynb)
 This Jupyter notebook contains code used to import, format and prepare the contributions data for analysis.
 
-#### [national-analysis.ipynb](national-analysis.ipynb)
+### [national-analysis.ipynb](national-analysis.ipynb)
 This Jupyter notebook contains code used to analyze national trends in out-of-state giving.
 
-#### [states-analysis.ipynb](states-analysis.ipynb)
+### [states-analysis.ipynb](states-analysis.ipynb)
 This Jupyter notebook contains code used to analyze out-of-state giving state-by-state.
 
-#### [candidates-analysis.ipynb](candidates-analysis.ipynb)
+### [candidates-analysis.ipynb](candidates-analysis.ipynb)
 This Jupyter notebook contains code used to analyze the out-of-state giving trends to individual candidates.
 
-#### [contributors-analysis.ipynb](contributors-analysis.ipynb)
+### [contributors-analysis.ipynb](contributors-analysis.ipynb)
 This Jupyter notebook contains code used to analyze contributor- and contribution-level out-of-state giving trends.
 
-#### [process_contributions.sh](process_contributions.sh)
+### [process_contributions.sh](process_contributions.sh)
 This Bash script contains code used to download and concatenate the contributions data.
 
-#### [national-by-party](national-by-party.csv)
+### [national-by-party](national-by-party.csv)
 This csv file contains data on out-of-state giving by political party.
 
-#### [national-by-office](national-by-office.csv)
+### [national-by-office](national-by-office.csv)
 This csv file contains data on out-of-state giving by office.
 
-#### [states-by-office-18](states-by-office-18.csv)
+### [states-by-office-18](states-by-office-18.csv)
 This csv file contains data on 2018 cycle out-of-state giving by state and office.
 
-#### [states-by-office-14](states-by-office-14.csv)
+### [states-by-office-14](states-by-office-14.csv)
 This csv file contains data on 2014 cycle out-of-state giving by state and office.
 
-#### [states-by-office-10](states-by-office-10.csv)
+### [states-by-office-10](states-by-office-10.csv)
 This csv file contains data on 2010 cycle out-of-state giving by state and office.
 
-#### [states-by-party-office-18](states-by-party-office.csv)
+### [states-by-party-office-18](states-by-party-office.csv)
 This csv file contains data on 2018 cycle out-of-state giving by state, party and office.
 
-#### [states-by-party-office-14](states-by-party-office.csv)
+### [states-by-party-office-14](states-by-party-office.csv)
 This csv file contains data on 2014 cycle out-of-state giving by state, party and office.
 
-#### [states-by-party-office-10](states-by-party-office.csv)
+### [states-by-party-office-10](states-by-party-office.csv)
 This csv file contains data on 2010 cycle out-of-state giving by state, party and office.
 
-#### [candidates](candidates.csv)
+### [candidates](candidates.csv)
 This csv file contains data on out-of-state giving by individual candidate.
 
-#### [contributors](contributors.csv)
+### [contributors](contributors.csv)
 This csv file contains summary statistics on out-of-state giving by party and office.
 
-### Data dictionaries
+## Data dictionaries
 
-#### national-by-party
+### national-by-party
 * **party**: political party of the receiving candidate
 * **18_in_state**: in-state 2018 cycle-to-date contributions
 * ****18_out_of_state****: out-of-state 2018 cycle-to-date contributions
@@ -80,7 +80,7 @@ This csv file contains summary statistics on out-of-state giving by party and of
 * **pct_18_out_of_state**: percent out-of-state 2018 cycle-to-date contributions
 * **pct_18_unknown**: percent unknown 2018 cycle-to-date contributions
 
-#### national-by-office
+### national-by-office
 * **standardized_office**: political office of the receiving candidate
 * **18_in_state**: in-state 2018 cycle-to-date contributions
 * **18_out_of_state**: out-of-state 2018 cycle-to-date contributions
@@ -104,7 +104,7 @@ This csv file contains summary statistics on out-of-state giving by party and of
 * **pct_18_out_of_state**: percent out-of-state 2018 cycle-to-date contributions
 * **pct_18_unknown**: percent unknown 2018 cycle-to-date contributions
 
-#### states-by-office-18
+### states-by-office-18
 * **state**: state of the receiving candidate
 * **contributions_18_governor/lieutenant_governor_in_state**: in-state 2018 cycle-to-date contributions to gubernatorial candidates
 * **contributions_18_governor/lieutenant_governor_out_of_state**: out-of-state 2018 cycle-to-date contributions to gubernatorial candidates
@@ -121,7 +121,7 @@ This csv file contains summary statistics on out-of-state giving by party and of
 * **pct_state_house/assembly/senate_out_of_state**: percent out-of-state 2018 cycle-to-date contributions to state legislative candidates
 * **pct_state_house/assembly/senate_unknown**: percent unknown 2018 cycle-to-date contributions to state legislative candidates
 
-#### states-by-office-14
+### states-by-office-14
 * **state**: state of the receiving candidate
 * **contributions_14_governor/lieutenant_governor_in_state**: in-state 2014 cycle-to-date contributions to gubernatorial candidates
 * **contributions_14_governor/lieutenant_governor_out_of_state**: out-of-state 2014 cycle-to-date contributions to gubernatorial candidates
@@ -138,7 +138,7 @@ This csv file contains summary statistics on out-of-state giving by party and of
 * **pct_state_house/assembly/senate_out_of_state**: percent out-of-state 2014 cycle-to-date contributions to state legislative candidates
 * **pct_state_house/assembly/senate_unknown**: percent unknown 2014 cycle-to-date contributions to state legislative candidates
 
-#### states-by-office-10
+### states-by-office-10
 * **state**: state of the receiving candidate
 * **contributions_10_governor/lieutenant_governor_in_state**: in-state 2010 cycle-to-date contributions to gubernatorial candidates
 * **contributions_10_governor/lieutenant_governor_out_of_state**: out-of-state 2010 cycle-to-date contributions to gubernatorial candidates
@@ -155,7 +155,7 @@ This csv file contains summary statistics on out-of-state giving by party and of
 * **pct_state_house/assembly/senate_out_of_state**: percent out-of-state 2010 cycle-to-date contributions to state legislative candidates
 * **pct_state_house/assembly/senate_unknown**: percent unknown 2010 cycle-to-date contributions to state legislative candidates
 
-#### states-by-party-office-18
+### states-by-party-office-18
 * **state**: state of the receiving candidate
 * **party**: political party of the receiving candidate
 * **contributions_18_governor/lieutenant_governor_in_state**: in-state 2018 cycle-to-date contributions to gubernatorial candidates
@@ -173,7 +173,7 @@ This csv file contains summary statistics on out-of-state giving by party and of
 * **pct_state_house/assembly/senate_out_of_state**: percent out-of-state 2018 cycle-to-date contributions to state legislative candidates
 * **pct_state_house/assembly/senate_unknown**: percent unknown 2018 cycle-to-date contributions to state legislative candidates
 
-#### states-by-party-office-14
+### states-by-party-office-14
 * **state**: state of the receiving candidate
 * **party**: political party of the receiving candidate
 * **contributions_14_governor/lieutenant_governor_in_state**: in-state 2014 cycle-to-date contributions to gubernatorial candidates
@@ -191,7 +191,7 @@ This csv file contains summary statistics on out-of-state giving by party and of
 * **pct_state_house/assembly/senate_out_of_state**: percent out-of-state 2014 cycle-to-date contributions to state legislative candidates
 * **pct_state_house/assembly/senate_unknown**: percent unknown 2014 cycle-to-date contributions to state legislative candidates
 
-#### states-by-party-office-10
+### states-by-party-office-10
 * **state**: state of the receiving candidate
 * **party**: political party of the receiving candidate
 * **contributions_10_governor/lieutenant_governor_in_state**: in-state 2010 cycle-to-date contributions to gubernatorial candidates
@@ -209,7 +209,7 @@ This csv file contains summary statistics on out-of-state giving by party and of
 * **pct_state_house/assembly/senate_out_of_state**: percent out-of-state 2010 cycle-to-date contributions to state legislative candidates
 * **pct_state_house/assembly/senate_unknown**: percent unknown 2010 cycle-to-date contributions to state legislative candidates
 
-#### candidates
+### candidates
 * **candidate**: the receiving candidate
 * **state**: state of the receiving candidate
 * **standardized_office_18**: political office of the receiving candidate in 2018
@@ -241,7 +241,7 @@ This csv file contains summary statistics on out-of-state giving by party and of
 * **amount_14_total**: total 2014 cycle-to-date contributions to the receiving candidate
 * **amount_10_total**: total 2010 cycle-to-date contributions to the receiving candidate
 
-#### contributors
+### contributors
 * **year**: election cycle
 * **standardized_office**: political office of the receiving candidate
 * **num_dem_in_state**: number of in-state contributors to Democratic candidates
