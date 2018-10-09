@@ -24,34 +24,34 @@ This Jupyter notebook contains code used to analyze contributor- and contributio
 ### [process_contributions.sh](process_contributions.sh)
 This Bash script contains code used to download and concatenate the contributions data.
 
-### [national-by-party](national-by-party.csv)
+### [national-by-party](data-for-download/national-by-party.csv)
 This csv file contains data on out-of-state giving by political party.
 
-### [national-by-office](national-by-office.csv)
+### [national-by-office](data-for-download/national-by-office.csv)
 This csv file contains data on out-of-state giving by office.
 
-### [states-by-office-18](states-by-office-18.csv)
+### [states-by-office-18](data-for-download/states-by-office-18.csv)
 This csv file contains data on 2018 cycle out-of-state giving by state and office.
 
-### [states-by-office-14](states-by-office-14.csv)
+### [states-by-office-14](data-for-download/states-by-office-14.csv)
 This csv file contains data on 2014 cycle out-of-state giving by state and office.
 
-### [states-by-office-10](states-by-office-10.csv)
+### [states-by-office-10](data-for-download/states-by-office-10.csv)
 This csv file contains data on 2010 cycle out-of-state giving by state and office.
 
-### [states-by-party-office-18](states-by-party-office.csv)
+### [states-by-party-office-18](data-for-download/states-by-party-office.csv)
 This csv file contains data on 2018 cycle out-of-state giving by state, party and office.
 
-### [states-by-party-office-14](states-by-party-office.csv)
+### [states-by-party-office-14](data-for-download/states-by-party-office.csv)
 This csv file contains data on 2014 cycle out-of-state giving by state, party and office.
 
-### [states-by-party-office-10](states-by-party-office.csv)
+### [states-by-party-office-10](data-for-download/states-by-party-office.csv)
 This csv file contains data on 2010 cycle out-of-state giving by state, party and office.
 
-### [candidates](candidates.csv)
+### [candidates](data-for-download/candidates.csv)
 This csv file contains data on out-of-state giving by individual candidate.
 
-### [contributors](contributors.csv)
+### [contributors](data-for-download/contributors.csv)
 This csv file contains summary statistics on out-of-state giving by party and office.
 
 ## Data dictionaries
