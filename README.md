@@ -39,13 +39,13 @@ This csv file contains data on 2014 cycle out-of-state giving by state and offic
 ### [states-by-office-10](data-for-download/states-by-office-10.csv)
 This csv file contains data on 2010 cycle out-of-state giving by state and office.
 
-### [states-by-party-office-18](data-for-download/states-by-party-office.csv)
+### [states-by-party-office-18](data-for-download/states-by-party-office-18.csv)
 This csv file contains data on 2018 cycle out-of-state giving by state, party and office.
 
-### [states-by-party-office-14](data-for-download/states-by-party-office.csv)
+### [states-by-party-office-14](data-for-download/states-by-party-office-14.csv)
 This csv file contains data on 2014 cycle out-of-state giving by state, party and office.
 
-### [states-by-party-office-10](data-for-download/states-by-party-office.csv)
+### [states-by-party-office-10](data-for-download/states-by-party-office-10.csv)
 This csv file contains data on 2010 cycle out-of-state giving by state, party and office.
 
 ### [candidates](data-for-download/candidates.csv)
