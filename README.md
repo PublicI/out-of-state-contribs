@@ -1,8 +1,8 @@
 # Local Voters, Distant Donors
 
-This repo contains code and data for "[Local Voters, Distant Donors]()," a Center for Public Integrity investigation of out-of-state giving in gubernatorial and state legislative elections.
+This repo contains code and data for "[Local Voters, Distant Donors](https://www.publicintegrity.org/2018/10/10/22300/out-state-donors-pour-cash-democrats-state-races)," a Center for Public Integrity investigation of out-of-state giving in gubernatorial and state legislative elections.
 
-A detailed description of the methodology behind the story [can be read here]().
+A detailed description of the methodology behind the story [can be read here](https://www.publicintegrity.org/2018/10/10/22317/reporting-recipe-how-investigate-out-state-influence-2018-races).
 
 ## Here's what's in this repo.
 
